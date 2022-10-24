@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T06:04:00.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="C_pYiNsHvEEwS8uSscF-" type="github"><diagram id="i0IRiB3tpn-iWdeF6CQv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-24T06:17:37.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sWSUN5WwkfRsuJP_gBMt" version="20.5.1" type="github">
+  <diagram id="i0IRiB3tpn-iWdeF6CQv" name="Page-1">
+    <mxGraphModel dx="1220" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="83FIWGel9j9rkVzS6urQ-1" value="项目组" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-2" value="实销产值" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-3" value="总商品数" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-2" target="83FIWGel9j9rkVzS6urQ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="510" as="sourcePoint" />
+            <mxPoint x="195" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-6" value="数据筛选" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-3" target="83FIWGel9j9rkVzS6urQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="340" as="sourcePoint" />
+            <mxPoint x="385" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-9" value="滞销商品数" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-6" target="83FIWGel9j9rkVzS6urQ-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="340" as="sourcePoint" />
+            <mxPoint x="205" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-13" value="调取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-1" target="83FIWGel9j9rkVzS6urQ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="340" as="sourcePoint" />
+            <mxPoint x="205" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-13" target="83FIWGel9j9rkVzS6urQ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="100" as="sourcePoint" />
+            <mxPoint x="300" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-13" target="83FIWGel9j9rkVzS6urQ-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="278.0769230769231" y="200" as="sourcePoint" />
+            <mxPoint x="234.23076923076928" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-17" value="滞销商品数&lt;br&gt;核算公式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-17" target="83FIWGel9j9rkVzS6urQ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="460" as="sourcePoint" />
+            <mxPoint x="205" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-19" value="滞销率&lt;br&gt;核算公式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-9" target="83FIWGel9j9rkVzS6urQ-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="560" as="sourcePoint" />
+            <mxPoint x="205" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-21" value="汇总存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-19" target="83FIWGel9j9rkVzS6urQ-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="640" as="sourcePoint" />
+            <mxPoint x="335" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-23" value="&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;滞销率" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="335" y="810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83FIWGel9j9rkVzS6urQ-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="83FIWGel9j9rkVzS6urQ-21" target="83FIWGel9j9rkVzS6urQ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="670" as="sourcePoint" />
+            <mxPoint x="395" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
